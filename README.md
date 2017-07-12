@@ -6,4 +6,3 @@ See [wiki] (https://github.com/bikerp/dsp-w215-hnap/wiki) for more information.
 # Version 3.0.0
 Made it into a class to allow for connections to multiple meters to be initated
 
-
