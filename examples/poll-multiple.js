@@ -1,7 +1,6 @@
 /**
  * Dependencies
  */
-var MQTTService = require('mqtt-service');
 var DSPW215 = require('dsp-w215-hnap');
 
 /**
@@ -22,8 +21,6 @@ var config = {
   ],
   pollInterval: 1000
 }
-
-//var dspw215s = [];
 
 config.meters.forEach(function(meter, i) {
   var dspw215 = new DSPW215(meter.url);
